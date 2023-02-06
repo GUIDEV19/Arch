@@ -1,4 +1,4 @@
-@media (max-width: 420px){
+@media (max-width: 435px){
     body {
         width: 100%;
         margin: 0;
@@ -33,7 +33,7 @@
         background-color: #C8CCD8;
         z-index: 3;
         margin-top: 4.9em;
-        width: 400px;
+        width: 420px;
         height: 640px;
         position: absolute;
         flex-direction: column;
@@ -119,7 +119,7 @@
     }
 
     #btn-featured{
-        margin-left: 4.5em;
+        margin-left: 1em;
         margin-top: 3em;
     }
 
@@ -146,8 +146,7 @@
 
     #footer {
         position: absolute;
-        margin-top: -4em;
-        margin-left: 6em;
+        margin: -4em auto 0 41%
     }
 
     .footer-menu {
@@ -157,6 +156,7 @@
         position: relative;
         height: max-content;
         margin-top: 5em;
+        display: flex;
     }
 
     .btn-footer{
