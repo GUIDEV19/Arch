@@ -1,0 +1,158 @@
+.texto-vertical{
+    width: max-content;
+    margin-left: -.6em;
+}
+
+.about-principal{
+    display: flex;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-about{
+    background-image: url("../img/about/desktop/image-hero.jpg");
+    background-size: cover;
+    width: 635px;
+    height: 720px;
+}
+
+.opacity {
+    width: 635px;
+    height:720px;
+}
+
+.title-principal{
+    z-index: 2;
+    position: absolute;
+    font-size: 140px;
+    color: #C8CCD8;
+    margin-top: .9em;
+    margin-left: 3.3em;
+    animation: title 2s;
+}
+
+.div-text-princial{
+    position: absolute;
+    width: 640px;
+    height: 509px;
+    background-color: #EEEFF4;
+    margin-top: 13.2em;
+    margin-left: 30.3em;
+}
+
+.text-principal {
+    width: 446px;
+    height: 341px;
+    margin: 15em auto;
+    animation: fadeIn 1s;
+}
+
+.text-principal h2{
+    font-size: 70px;
+    margin-bottom: .5em;
+}
+
+.about-secundario {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 8em;
+}
+
+.img-secundaria-container {
+    background-image: url("../img/about/desktop/image-heritage.jpg");
+    width: 540px;
+    height: 568px;
+    border-radius: 5px;
+}
+
+.img-secundaria-container .opacity {
+    width: 540px;
+    height: 568px;
+    border-radius: 5px;
+}
+
+.text-secundario {
+    width: 446px;
+    height: 558px;
+    margin-right: 5em;
+}
+
+.text-secundario h1 {
+    font-size: 90px;
+    margin-bottom: 1em;
+}
+
+.text-secundario p:not(fist-child) {
+    margin-bottom: 1.5em;
+    font-size: 20px;
+}
+
+
+.about-terciario {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 8em;
+    justify-content: space-between;
+}
+.container-leader{
+    margin-right: 2em;
+}
+
+.containers-leaders{
+    display: flex;
+}
+
+.iten-leader {
+    margin-right: 2em;
+}
+
+.iten-leader img {
+    border-radius: 5px;
+}
+
+.iten-leader h3 {
+    font-size: 25px;
+    margin-top: .5em;
+}
+
+.iten-leader p {
+    color: #60636D;
+    padding: .5em 0;
+}
+
+.title-terciario {
+    font-size: 50px;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; margin-left: 100%; }
+    100% { opacity: 1; margin-left: 6em;}
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-100% 0 0);
+}
+
+[data-anime="right"] {
+    margin-left: -100%;
+}
+
+[data-anime].animation {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    margin-left: 0;
+}

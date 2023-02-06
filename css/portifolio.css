@@ -1,0 +1,36 @@
+.container-row {
+    display: flex;
+    margin-bottom: 2em;
+    width: 1200px;
+    margin: 2em auto;
+}
+
+.container-item:not(last-child){
+    margin-right: 2em;
+    position: relative;
+}
+
+.texto-vertical {
+    margin-left: -1em;
+    font-size: 15px;
+}
+
+.text {
+    position: absolute;
+    margin: 30em 50% 0 3em ;
+    width: max-content;
+    height: max-content;
+    color: #EEEFF4;
+    opacity: 0;
+}
+
+.opacity {
+    position: absolute;
+    height: 99.3%;
+    opacity: 0;
+}
+
+.opacity:hover {
+    transition: 1s;
+    opacity: 1;
+}

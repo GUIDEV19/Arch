@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEEFF4;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container-principal {
+    width: 90%;
+    margin: 0 4em 0 8em;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    margin: 2em auto;
+    position: relative;
+}
+
+.texto-vertical{
+    margin-top: 170px;
+    margin-left: 1em ;
+    transform: rotate(270deg);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #C8CCD8;
+}
+
+.linha {
+    position: absolute;
+    transform: rotate(270deg);
+    width: 12em;
+    margin-left: -2.6em;
+    border-top: 1px solid #C8CCD8;;
+}
+
+.img-logo {
+    font-size: 25px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.container-itens-menu {
+    display: flex;
+    margin-left: 8em;
+    width: max-content;
+}
+
+.itens-menu {
+    margin-top: 1em;
+    margin-right: 2em;
+    list-style: none;
+}
+
+.itens-menu a  {
+    text-decoration: none;
+    color: #60636D;
+    font-size: 1.8em;
+}
+
+/* Home=-=-=-=-=-==-=-=-=-=-=-== */
+
+.home, header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page {
+    position: absolute;
+    margin-left: -8em;
+}
+
+.imgs{
+    background-image: url("../img/home/desktop/image-hero-paramour.jpg");
+    background-size: cover;
+    background-color: rgba(1, 1, 1, .5);
+    width: 1110px;
+    height: 720px;
+    position: relative;
+    transition: 1s;
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, .5);
+}
+
+.apresentacao-home {
+    position: absolute;
+    width: 43%;
+    color: #EEEFF4;
+    margin: 20% 0 0 15%;
+}
+
+.apresentacao-home h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 64px;
+    margin-bottom: .3em;
+}
+
+.apresentacao-home p{
+    font-size: 32px;
+}
+
+.btn {
+    width: 252px;
+    height: 72px;
+    background-color: #1B1D23;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.apresentacao-home .btn {
+    margin-top: 4em;
+}
+
+.apresentacao-home .btn:hover {
+    transition: 1s;
+    background-color:#60636D;
+}
+
+.apresentacao-home .btn i {
+    margin-left: 2em;
+    
+}
+
+.btns-imgs-home {
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    margin-top: 57.8%;
+    margin-left: -80px;
+    padding: 0;
+}
+
+.btn-img-home {
+    width: 80px;
+    height: 80px;
+    border: none;
+    margin: -2px;
+    padding: 0;
+    font-size: 18px;
+}
+
+.active{
+    transition: 1s;
+    background-color: #1B1D23;
+    color: #FFFFFF;
+}
+
+.container-info1 {
+    max-width: 1200px;
+    position: relative;
+    margin: 6em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-info1 {
+    position: absolute;
+    color: #C8CCD8;
+    font-size: 180px;
+}
+
+#text-primcipal-info1 {
+    margin-top: 12.5em;
+    width: 446px;
+    height: 483px;
+    margin-left: 12em;
+}
+
+#text-primcipal-info1 h2 {
+    font-size: 66px;
+    margin-bottom: .5em;
+}
+
+#text-primcipal-info1 p {
+    font-size: 22px;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+#img-info1 {
+    background-image: url('../img/home/desktop/image-welcome.jpg');
+    width: 350px;
+    height: 568;
+    background-size: cover;
+    margin-top: 7em;
+    margin-right: 2.2em;
+}
+
+#imgs2 {
+    background-image: url("../img/home/desktop/image-small-team.jpg");
+}
+
+footer {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 4em;
+    max-width: 1180px;
+    height: max-content;
+}
+
+#footer {
+    margin:auto 0;
+    width: 200px;
+    height: 200px;
+    color: #FFFFFF;
+    background-color: #1B1D23;
+}
+
+#footer h1 {
+    margin: 40% 0;
+    text-align: center;
+}
+
+.footer-menu{
+    margin: 40% 20%;
+    width: max-content;
+}
+
+.btn-footer {
+    position: relative;
+    margin: 55% 0 20% 100%;
+    border: solid;
+}
+
+#tablete {
+    display: none;
+}
+/* Animations */
+
+.animation-h1{
+    animation: fadeIn 1.5s;
+}
+
+.animation-p{
+    animation: fadeIn 2s;
+}
+
+.animation-btn{
+    animation: fadeIn 2.1s;
+}
+
+.animation-text-info {
+    animation: apresentacao-text 2.2s;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-100% 0 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(100% 0 0);
+}
+
+[data-anime].animation {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px)
+}
+
+
+/* KeysFrames */
+
+@keyframes fadeIn {
+    0% { opacity: 0; margin-left: 40px; }
+    100% { opacity: 1; margin-left: 0; }
+}
+
+@keyframes apresentacao {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes apresentacao-text {
+    0% {
+        margin-left: -100%;
+    }
+}

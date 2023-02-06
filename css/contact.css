@@ -1,0 +1,168 @@
+/* .container-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+.texto-vertical{
+    margin-left: -.5em;
+}
+
+.contact-principal{
+    display: flex;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title-principal {
+    z-index: 2;
+    position: absolute;
+    font-size: 140px;
+    color: #C8CCD8;
+    margin-top: .9em;
+    margin-left: 2.5em;
+    animation: title 2s;
+}
+
+.div-text-princial {
+    position: absolute;
+}
+
+.div-text-princial{
+    position: absolute;
+    width: 640px;
+    height: 509px;
+    background-color: #EEEFF4;
+    margin-top: 13.2em;
+    margin-left: 30.3em;
+}
+
+.text-principal {
+    width: 446px;
+    height: 341px;
+    margin: 15em auto;
+    animation: fadeIn 1s;
+}
+
+.text-principal h2{
+    font-size: 70px;
+    margin-bottom: .5em;
+}
+
+.img-contact {
+    background-image: url("../img/contact/desktop/image-hero.jpg");
+    width: 635px;
+    height: 720px;
+}
+
+.container-secondario {
+    max-width: 1200px;
+    margin: 10em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-secundario {
+    font-size: 60px;
+    max-width: 350px;
+    max-height: 128px;
+}
+
+.endereco {
+    margin-top: 1em;
+}
+
+.endereco h4 {
+    color: #1B1D23;
+    margin-bottom: 2.5em;
+}
+
+.endereco p {
+    line-height: 25px;
+    color: #b5b8c0;
+}
+
+.endereco p span {
+    font-weight: 900;
+}
+
+.btn-map {
+    margin-top: 3em;
+}
+
+.btn-map a,
+.btn-map i{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1em ;
+}
+
+.img-map {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form {
+    max-width: 1200px;
+    margin: 5em auto;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #1B1D23;
+    width: 730px;
+    height: 44px;
+}
+
+.input-form:not(first-child){
+    margin-bottom: 1em;
+}
+
+.input-form:focus {
+    border: none;
+}
+
+.input-form:active {
+    border: none;
+}
+
+input::focus {
+    border: none;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-100% 0 0);
+}
+
+[data-anime="right"] {
+    margin-left: -100%;
+}
+
+[data-anime].animation {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    margin-left: 0;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; margin-left: 100%; }
+    100% { opacity: 1; margin-left: 6em;}
+}

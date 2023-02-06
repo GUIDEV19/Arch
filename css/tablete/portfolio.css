@@ -1,0 +1,45 @@
+@media (max-width: 1180px){
+    .container-row{
+        flex-direction: column;
+        margin:0 auto
+    }
+
+    .container-item{
+        width:573px;
+        height: 240px;
+        margin-bottom: 2em;
+    }
+
+    .container-item img{
+        width:573px;
+        height: 240px;
+    }
+    .opacity {
+        opacity: 1;
+    }
+
+    .text{
+        opacity: 1;
+        z-index: 4;
+        margin-top: 10em;
+    }
+
+    footer {
+        width: 100%;
+        margin-left: -4em;
+    }
+
+    .footer-menu{
+        margin-left: 10px;
+    }
+
+    #footer{
+        max-width: 100%;
+    }
+
+    .btn-footer {
+        margin-left: 0;
+        width: 200px;
+        margin-top: 11em;
+    }
+}

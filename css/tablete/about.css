@@ -1,0 +1,49 @@
+@media (max-width: 1180px){
+    .title-principal {
+        margin-left: 1em;
+    }
+
+    .div-text-princial{
+        margin-left: 8em;
+        height: 600px;
+    }
+
+    .img-secundaria-container {
+        display: none;
+    }
+
+    .text-secundario {
+        width: 80%;
+    }
+
+    .about-terciario{
+        flex-direction: column;
+    }
+
+    .title-terciario{
+        margin-bottom: 1em;
+    }
+
+    .iten-leader img {
+        width: 300px;
+    }
+
+    footer {
+        width: 100%;
+        margin-left: -4em;
+    }
+
+    .footer-menu{
+        margin-left: 10px;
+    }
+
+    #footer{
+        max-width: 100%;
+    }
+
+    .btn-footer {
+        margin-left: 0;
+        width: 200px;
+        margin-top: 11em;
+    }
+}
