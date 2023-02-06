@@ -41,6 +41,7 @@
         align-items: center;
         transition: 1s;
         opacity: .9;
+        display: none;
     }
 
     .itens-menu{
@@ -52,6 +53,7 @@
     .optionsMenu{
         transition: 1s;
         margin-left: -7.5em;
+        display: flex;
     }
 
     .optionsMenu2 {
