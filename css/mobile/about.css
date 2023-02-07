@@ -1,0 +1,74 @@
+@media (max-width: 435px){
+
+    .about-principal,
+    .img-about{
+        width: 100%;
+    }
+
+    .title-principal {
+        font-size: 95px;
+        margin-left: .2em;
+        margin-top: 2.5em;
+    }
+
+    .div-text-princial{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .text-principal{
+        width: 98%;
+        margin-left: .5em;
+    }
+
+    .text-principal h2{
+        font-size: 50px;
+    }
+
+
+    .about-secundario {
+        width: 100%;
+        margin-left: 2em;
+    }
+
+    .about-terciario{
+        width: 110%;
+    }
+
+    .title-terciario{
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    .containers-leaders{
+        width: max-content;
+        flex-direction: column;
+        margin: 0 auto; 
+    }
+
+    .iten-leader{
+        margin: 0;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #footer {
+        margin-left: 24%;
+    }
+
+    .footer-menu{
+        margin-left: 38%;
+    }
+
+    .btn-footer {
+        position: absolute;
+        margin: -8em 0 1em 6%;
+    }
+}
