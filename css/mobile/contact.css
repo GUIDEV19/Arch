@@ -1,0 +1,80 @@
+@media (max-width: 435px){
+    .about-principal,
+    .img-about{
+        width: 100%;
+    }
+
+    .title-principal {
+        font-size: 70px;
+        margin-left: .4em;
+        margin-top: 4em;
+    }
+
+    .div-text-princial{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .text-principal{
+        width: 98%;
+        margin-left: .5em;
+    }
+
+    .text-principal h2{
+        font-size: 50px;
+    }
+
+    .container-secondario{
+        width: max-content;
+    }
+
+    .title-secundario{
+        width: max-content;
+        text-align: center;
+    }
+
+    .endereco{
+        width: 230px;
+        margin: 2em 0 1em 6em;
+        text-align: center;
+        padding-left: 2em;
+    }
+
+    .img-map {
+        width: 100%;
+    }
+
+    .form, .title-secundario {
+        width: 100%;
+    }
+
+    .title-secundario h1 {
+        font-size: 40px;
+        margin-left: .5em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .form {
+        margin-left: 2em;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #footer {
+        margin-left: 24%;
+    }
+
+    .footer-menu{
+        margin-left: 39%;
+    }
+
+    .btn-footer {
+        position: absolute;
+        margin: -8em 0 1em 5%;
+    }
+}
