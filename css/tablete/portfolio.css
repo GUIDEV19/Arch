@@ -1,4 +1,8 @@
 @media (max-width: 1180px){
+
+    .container-principal{
+        width: 100%;
+    }
     .container-row{
         width: 100%;
         flex-direction: column;
