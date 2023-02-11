@@ -1,10 +1,13 @@
 @media (max-width: 1180px){
-
-    .container-principal{
+    body {
         width: 100%;
     }
+
+    .container-principal{
+        width: 50%;
+    }
     .itens-portfolio{
-        width: 100%;
+        width: 50%;
     }
     .container-row{
         width: 100%;
