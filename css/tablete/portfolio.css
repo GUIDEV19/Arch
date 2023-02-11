@@ -3,6 +3,9 @@
     .container-principal{
         width: 100%;
     }
+    .itens-portfolio{
+        width: 100%;
+    }
     .container-row{
         width: 100%;
         flex-direction: column;
