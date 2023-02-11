@@ -5,16 +5,17 @@
     }
 
     .container-item{
-        width:573px;
+        width:99%;
         height: 240px;
         margin-bottom: 2em;
     }
 
     .container-item img{
-        width:573px;
+        width:99%;
         height: 240px;
     }
     .opacity {
+        width: 99%;
         opacity: 1;
     }
 
